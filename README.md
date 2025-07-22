@@ -5,12 +5,12 @@ Roo Codeを使って簡単なTODOアプリ＋チャット機能を作成する�
 
 ## 事前準備
 1. VSCodeのインストール
-  - 拡張機能から「Roo Code」のインストール
-2. Nodeのインストール(v22.13.1)
-3. `.env.local`の作成
-  - `.env.local.sample`をリネーム
-  - `OPENAI_API_KEY`については、後ほどお伝えします。
-4. ターミナルで`npm install`を実行
+2. 拡張機能から「Roo Code」のインストール
+3. Nodeのインストール(v22.13.1)
+4. `.env.local`の作成
+    1. `.env.local.sample`をリネーム
+    2. `OPENAI_API_KEY`については、後ほどお伝えします。
+5. ターミナルで`npm install`を実行
 
 ## Roo Codeのセットアップ
 1. 設定(歯車)からプロバイダーのタブを選択
