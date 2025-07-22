@@ -1,0 +1,38 @@
+## プロジェクト概要
+
+### アプリケーションの目的
+- TODOリストの作成、表示、更新、削除、完了機能
+- AI（OpenAI API）との会話機能
+
+### 技術スタック
+- Next.js
+- TypeScript
+- PostCSS
+- Tailwind CSS
+
+###　開発ルール
+- TDDで実装する
+- NextのApp Routerで実装する
+- VitestとReact Testing Libraryを使用したTDD
+- docs/spec.mdが実装タスクの仕様書となる
+- 各タスクの実装は、docs/prompt_task_*.mdに記載された指示に従う
+
+### ディレクトリ構成
+```./
+├── .next/
+├── node_modules/
+├── public/
+├── src/
+│   ├── app/          # Next.jsのApp Routerのルートディレクトリ
+│   │   └── api/      # APIルート
+│   ├── components/   # 再利用可能なUIコンポーネント
+│   ├── hooks/        # カスタムフック
+│   ├── lib/          # ユーティリティ関数やAPIクライアントなど
+│   └── styles/       # グローバルスタイルやTailwind CSSの設定ファイル
+├── .eslintrc.json
+├── next-env.d.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+└── tsconfig.json
+``` 
